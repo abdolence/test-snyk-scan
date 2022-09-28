@@ -16,8 +16,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % "test",
   "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
   "com.typesafe.play" %% "play-functional" % "2.9.1",
-  // for using certificate from class path in akka http ssl config, can be
-  // removed when akka http upgrade their ssl-config-core dependency
   "com.typesafe" %% "ssl-config-core" % "0.4.2",
   "com.github.tototoshi" %% "scala-csv" % "1.3.8",
   "commons-net" % "commons-net" % "3.7.2",
