@@ -7,8 +7,6 @@ val apiScalaVersions = Seq(appScalaVersion)
 ThisBuild / scalaVersion := appScalaVersion
 
 libraryDependencies ++= Seq(
-  "commons-net" % "commons-net" % "3.7.2",
-  "com.mixpanel" % "mixpanel-java" % "1.5.1",
   "org.scalamock" %% "scalamock" % "5.2.0" % Test,
   "org.scalatest" %% "scalatest" % "3.2.13" % Test,
   "org.scalatestplus" %% "scalacheck-1-14" % "3.2.2.0" % Test,
