@@ -6,9 +6,6 @@ val apiScalaVersions = Seq(appScalaVersion)
 
 ThisBuild / scalaVersion := appScalaVersion
 
-val akkaVersion = "2.6.20"
-val akkaHttpVersion = "10.2.10"
-
 libraryDependencies ++= Seq(
   "commons-net" % "commons-net" % "3.7.2",
   "com.mixpanel" % "mixpanel-java" % "1.5.1",
