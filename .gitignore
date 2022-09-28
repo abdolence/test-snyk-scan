@@ -1,0 +1,39 @@
+# created by our build targets
+.bsp/
+
+# various editor things, temp files etc
+target/
+.DS_Store
+*.vim
+*.iml
+/*.log
+/*.conf
+/.bloop/
+/.bsp/
+/.ensime
+/.ensime_cache
+/.idea/
+/.idea-bsp/
+/.idea_modules
+/.metals
+/project/metals.sbt
+/.vscode/
+
+# ignore archives and .json files in root, less chance of adding test data by mistake
+/*.json
+*.bz2
+*.gz
+*.tar
+*.tgz
+*.zip
+
+# bloop
+.bloop
+
+# Scala LSP (Metals) files
+metals.sbt
+*.orig
+.bsp
+
+*.log
+
