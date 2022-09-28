@@ -7,10 +7,6 @@ val apiScalaVersions = Seq(appScalaVersion)
 ThisBuild / scalaVersion := appScalaVersion
 
 libraryDependencies ++= Seq(
-  "org.scalamock" %% "scalamock" % "5.2.0" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.13" % Test,
-  "org.scalatestplus" %% "scalacheck-1-14" % "3.2.2.0" % Test,
-  "com.github.etaty" %% "rediscala" % "1.9.0",
   "org.jsoup" % "jsoup" % "1.14.2",
   "com.softwaremill.macwire" %% "util" % "2.3.5",
   "com.softwaremill.macwire" %% "macros" % "2.3.5" % "provided",
