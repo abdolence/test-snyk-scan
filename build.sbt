@@ -10,14 +10,6 @@ val akkaVersion = "2.6.20"
 val akkaHttpVersion = "10.2.10"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-http-xml" % akkaHttpVersion,
-  "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % "test",
-  "com.typesafe.akka" %% "akka-stream" % akkaVersion,
-  "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % "test",
-  "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
-  "com.typesafe.play" %% "play-functional" % "2.9.1",
-  "com.typesafe" %% "ssl-config-core" % "0.4.2",
-  "com.github.tototoshi" %% "scala-csv" % "1.3.8",
   "commons-net" % "commons-net" % "3.7.2",
   "com.mixpanel" % "mixpanel-java" % "1.5.1",
   "org.scalamock" %% "scalamock" % "5.2.0" % Test,
